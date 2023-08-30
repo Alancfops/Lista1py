@@ -23,7 +23,7 @@ while True:
     print("Salario invalido, digite novamente:")
 
 while True:
-  sexo = str(input(("Digite seu genero (F para feminino e M para masculino:")))
+  sexo = str(input(("Digite seu genero (F para feminino e M para masculino):")))
   if sexo.lower() == 'f' or sexo.lower() == 'm':
     print("Valido")
     break
